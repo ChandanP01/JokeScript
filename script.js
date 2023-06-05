@@ -226,5 +226,3 @@ const tellJoke = () => {
     document.getElementsByTagName('p')[0].innerHTML = jokes[jokeNo]
     document.getElementsByTagName('a')[0].innerHTML = "click again to see joke"
 }
-
-console.log(jokes.length);
