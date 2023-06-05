@@ -224,7 +224,7 @@ A bagel!`
 const tellJoke = () => {
     let jokeNo = Math.floor(Math.random() * (jokes.length - 1));
     document.getElementsByTagName('p')[0].innerHTML = jokes[jokeNo]
-    document.getElementsByTagName('button')[0].innerHTML = "click again to see joke"
+    document.getElementsByTagName('a')[0].innerHTML = "click again to see joke"
 }
 
 console.log(jokes.length);
